@@ -1,0 +1,483 @@
+module SQSF
+{
+    craftRecipe MakeMildewPack50
+    {
+        Icon = Item_SQSF_Mildew,
+        timedAction = Making,
+        Time = 60,
+        NeedToBeLearn = false,
+        Tags = InHandCraft;Farming,
+        category = SuQingIrrigation,
+        inputs
+        {
+            item 1 [Base.Plank] mode:destroy flags[ItemCount],
+            item 1 [*],
+            -fluid 1.0 [CowMilk;SheepMilk;AnimalMilk],
+        }
+        outputs
+        {
+            item 1 SQSF.MildewPack50,
+        }
+    }
+    craftRecipe RefillMildewPack50
+    {
+        Icon = Item_SQSF_Mildew,
+        timedAction = Making,
+        Time = 60,
+        NeedToBeLearn = false,
+        Tags = InHandCraft;Farming,
+        category = SuQingIrrigation,
+        inputs
+        {
+            item 1 [SQSF.EmptyPack50] mode:destroy flags[ItemCount],
+            item 1 [*],
+            -fluid 1.0 [CowMilk;SheepMilk;AnimalMilk],
+        }
+        outputs
+        {
+            item 1 SQSF.MildewPack50,
+        }
+    }
+    craftRecipe MakeFliesPack50Cigarettes
+    {
+        Icon = Item_SQSF_Flies,
+        timedAction = Making,
+        Time = 60,
+        NeedToBeLearn = false,
+        Tags = InHandCraft;Farming,
+        category = SuQingIrrigation,
+        inputs
+        {
+            item 1 [Base.Plank] mode:destroy flags[ItemCount],
+            item 1 [*],
+            -fluid 1.0 [Water],
+            item 5 [Base.CigaretteSingle] flags[ItemCount],
+        }
+        outputs
+        {
+            item 1 SQSF.FliesPack50,
+        }
+    }
+    craftRecipe RefillFliesPack50Cigarettes
+    {
+        Icon = Item_SQSF_Flies,
+        timedAction = Making,
+        Time = 60,
+        NeedToBeLearn = false,
+        Tags = InHandCraft;Farming,
+        category = SuQingIrrigation,
+        inputs
+        {
+            item 1 [SQSF.EmptyPack50] mode:destroy flags[ItemCount],
+            item 1 [*],
+            -fluid 1.0 [Water],
+            item 5 [Base.CigaretteSingle] flags[ItemCount],
+        }
+        outputs
+        {
+            item 1 SQSF.FliesPack50,
+        }
+    }
+    craftRecipe MakeFliesPack50Tobacco
+    {
+        Icon = Item_SQSF_Flies,
+        timedAction = Making,
+        Time = 60,
+        NeedToBeLearn = false,
+        Tags = InHandCraft;Farming,
+        category = SuQingIrrigation,
+        inputs
+        {
+            item 1 [Base.Plank] mode:destroy flags[ItemCount],
+            item 1 [*],
+            -fluid 1.0 [Water],
+            item 8 tags[base:tobacco],
+        }
+        outputs
+        {
+            item 1 SQSF.FliesPack50,
+        }
+    }
+    craftRecipe RefillFliesPack50Tobacco
+    {
+        Icon = Item_SQSF_Flies,
+        timedAction = Making,
+        Time = 60,
+        NeedToBeLearn = false,
+        Tags = InHandCraft;Farming,
+        category = SuQingIrrigation,
+        inputs
+        {
+            item 1 [SQSF.EmptyPack50] mode:destroy flags[ItemCount],
+            item 1 [*],
+            -fluid 1.0 [Water],
+            item 8 tags[base:tobacco],
+        }
+        outputs
+        {
+            item 1 SQSF.FliesPack50,
+        }
+    }
+    craftRecipe MakeFliesPack50Chewing
+    {
+        Icon = Item_SQSF_Flies,
+        timedAction = Making,
+        Time = 60,
+        NeedToBeLearn = false,
+        Tags = InHandCraft;Farming,
+        category = SuQingIrrigation,
+        inputs
+        {
+            item 1 [Base.Plank] mode:destroy flags[ItemCount],
+            item 1 [*],
+            -fluid 1.0 [Water],
+            item 5.0 [Base.TobaccoChewing],
+        }
+        outputs
+        {
+            item 1 SQSF.FliesPack50,
+        }
+    }
+    craftRecipe RefillFliesPack50Chewing
+    {
+        Icon = Item_SQSF_Flies,
+        timedAction = Making,
+        Time = 60,
+        NeedToBeLearn = false,
+        Tags = InHandCraft;Farming,
+        category = SuQingIrrigation,
+        inputs
+        {
+            item 1 [SQSF.EmptyPack50] mode:destroy flags[ItemCount],
+            item 1 [*],
+            -fluid 1.0 [Water],
+            item 5.0 [Base.TobaccoChewing],
+        }
+        outputs
+        {
+            item 1 SQSF.FliesPack50,
+        }
+    }
+    craftRecipe MakeAphidsPack50
+    {
+        Icon = Item_SQSF_Aphids,
+        timedAction = Making,
+        Time = 60,
+        NeedToBeLearn = false,
+        Tags = InHandCraft;Farming,
+        category = SuQingIrrigation,
+        inputs
+        {
+            item 1 [Base.Plank] mode:destroy flags[ItemCount],
+            item 1 [*],
+            -fluid 1.0 [Water],
+            item 1 [*],
+            -fluid 0.2 [RubbingAlcohol],
+        }
+        outputs
+        {
+            item 1 SQSF.AphidsPack50,
+        }
+    }
+    craftRecipe RefillAphidsPack50
+    {
+        Icon = Item_SQSF_Aphids,
+        timedAction = Making,
+        Time = 60,
+        NeedToBeLearn = false,
+        Tags = InHandCraft;Farming,
+        category = SuQingIrrigation,
+        inputs
+        {
+            item 1 [SQSF.EmptyPack50] mode:destroy flags[ItemCount],
+            item 1 [*],
+            -fluid 1.0 [Water],
+            item 1 [*],
+            -fluid 0.2 [RubbingAlcohol],
+        }
+        outputs
+        {
+            item 1 SQSF.AphidsPack50,
+        }
+    }
+    craftRecipe MakeSlugsPack50
+    {
+        Icon = Item_SQSF_Slugs,
+        timedAction = Making,
+        Time = 60,
+        NeedToBeLearn = false,
+        Tags = InHandCraft;Farming,
+        category = SuQingIrrigation,
+        inputs
+        {
+            item 1 [Base.Plank] mode:destroy flags[ItemCount],
+            item 1 [*],
+            -fluid 1.0 [Water],
+            item 1 [Base.Salt] mode:destroy flags[ItemCount],
+        }
+        outputs
+        {
+            item 1 SQSF.SlugsPack50,
+        }
+    }
+    craftRecipe RefillSlugsPack50
+    {
+        Icon = Item_SQSF_Slugs,
+        timedAction = Making,
+        Time = 60,
+        NeedToBeLearn = false,
+        Tags = InHandCraft;Farming,
+        category = SuQingIrrigation,
+        inputs
+        {
+            item 1 [SQSF.EmptyPack50] mode:destroy flags[ItemCount],
+            item 1 [*],
+            -fluid 1.0 [Water],
+            item 1 [Base.Salt] mode:destroy flags[ItemCount],
+        }
+        outputs
+        {
+            item 1 SQSF.SlugsPack50,
+        }
+    }
+    craftRecipe MakeMildewPack200
+    {
+        Icon = Item_SQSF_Mildew,
+        timedAction = Making,
+        Time = 100,
+        NeedToBeLearn = false,
+        Tags = InHandCraft;Farming,
+        category = SuQingIrrigation,
+        inputs
+        {
+            item 2 [Base.Plank] mode:destroy flags[ItemCount],
+            item 1 [*],
+            -fluid 4.0 [CowMilk;SheepMilk;AnimalMilk],
+        }
+        outputs
+        {
+            item 1 SQSF.MildewPack200,
+        }
+    }
+    craftRecipe RefillMildewPack200
+    {
+        Icon = Item_SQSF_Mildew,
+        timedAction = Making,
+        Time = 100,
+        NeedToBeLearn = false,
+        Tags = InHandCraft;Farming,
+        category = SuQingIrrigation,
+        inputs
+        {
+            item 1 [SQSF.EmptyPack200] mode:destroy flags[ItemCount],
+            item 1 [*],
+            -fluid 4.0 [CowMilk;SheepMilk;AnimalMilk],
+        }
+        outputs
+        {
+            item 1 SQSF.MildewPack200,
+        }
+    }
+    craftRecipe MakeFliesPack200Cigarettes
+    {
+        Icon = Item_SQSF_Flies,
+        timedAction = Making,
+        Time = 100,
+        NeedToBeLearn = false,
+        Tags = InHandCraft;Farming,
+        category = SuQingIrrigation,
+        inputs
+        {
+            item 2 [Base.Plank] mode:destroy flags[ItemCount],
+            item 1 [*],
+            -fluid 4.0 [Water],
+            item 20 [Base.CigaretteSingle] flags[ItemCount],
+        }
+        outputs
+        {
+            item 1 SQSF.FliesPack200,
+        }
+    }
+    craftRecipe RefillFliesPack200Cigarettes
+    {
+        Icon = Item_SQSF_Flies,
+        timedAction = Making,
+        Time = 100,
+        NeedToBeLearn = false,
+        Tags = InHandCraft;Farming,
+        category = SuQingIrrigation,
+        inputs
+        {
+            item 1 [SQSF.EmptyPack200] mode:destroy flags[ItemCount],
+            item 1 [*],
+            -fluid 4.0 [Water],
+            item 20 [Base.CigaretteSingle] flags[ItemCount],
+        }
+        outputs
+        {
+            item 1 SQSF.FliesPack200,
+        }
+    }
+    craftRecipe MakeFliesPack200Tobacco
+    {
+        Icon = Item_SQSF_Flies,
+        timedAction = Making,
+        Time = 100,
+        NeedToBeLearn = false,
+        Tags = InHandCraft;Farming,
+        category = SuQingIrrigation,
+        inputs
+        {
+            item 2 [Base.Plank] mode:destroy flags[ItemCount],
+            item 1 [*],
+            -fluid 4.0 [Water],
+            item 32 tags[base:tobacco],
+        }
+        outputs
+        {
+            item 1 SQSF.FliesPack200,
+        }
+    }
+    craftRecipe RefillFliesPack200Tobacco
+    {
+        Icon = Item_SQSF_Flies,
+        timedAction = Making,
+        Time = 100,
+        NeedToBeLearn = false,
+        Tags = InHandCraft;Farming,
+        category = SuQingIrrigation,
+        inputs
+        {
+            item 1 [SQSF.EmptyPack200] mode:destroy flags[ItemCount],
+            item 1 [*],
+            -fluid 4.0 [Water],
+            item 32 tags[base:tobacco],
+        }
+        outputs
+        {
+            item 1 SQSF.FliesPack200,
+        }
+    }
+    craftRecipe MakeFliesPack200Chewing
+    {
+        Icon = Item_SQSF_Flies,
+        timedAction = Making,
+        Time = 100,
+        NeedToBeLearn = false,
+        Tags = InHandCraft;Farming,
+        category = SuQingIrrigation,
+        inputs
+        {
+            item 2 [Base.Plank] mode:destroy flags[ItemCount],
+            item 1 [*],
+            -fluid 4.0 [Water],
+            item 20.0 [Base.TobaccoChewing],
+        }
+        outputs
+        {
+            item 1 SQSF.FliesPack200,
+        }
+    }
+    craftRecipe RefillFliesPack200Chewing
+    {
+        Icon = Item_SQSF_Flies,
+        timedAction = Making,
+        Time = 100,
+        NeedToBeLearn = false,
+        Tags = InHandCraft;Farming,
+        category = SuQingIrrigation,
+        inputs
+        {
+            item 1 [SQSF.EmptyPack200] mode:destroy flags[ItemCount],
+            item 1 [*],
+            -fluid 4.0 [Water],
+            item 20.0 [Base.TobaccoChewing],
+        }
+        outputs
+        {
+            item 1 SQSF.FliesPack200,
+        }
+    }
+    craftRecipe MakeAphidsPack200
+    {
+        Icon = Item_SQSF_Aphids,
+        timedAction = Making,
+        Time = 100,
+        NeedToBeLearn = false,
+        Tags = InHandCraft;Farming,
+        category = SuQingIrrigation,
+        inputs
+        {
+            item 2 [Base.Plank] mode:destroy flags[ItemCount],
+            item 1 [*],
+            -fluid 4.0 [Water],
+            item 1 [*],
+            -fluid 0.8 [RubbingAlcohol],
+        }
+        outputs
+        {
+            item 1 SQSF.AphidsPack200,
+        }
+    }
+    craftRecipe RefillAphidsPack200
+    {
+        Icon = Item_SQSF_Aphids,
+        timedAction = Making,
+        Time = 100,
+        NeedToBeLearn = false,
+        Tags = InHandCraft;Farming,
+        category = SuQingIrrigation,
+        inputs
+        {
+            item 1 [SQSF.EmptyPack200] mode:destroy flags[ItemCount],
+            item 1 [*],
+            -fluid 4.0 [Water],
+            item 1 [*],
+            -fluid 0.8 [RubbingAlcohol],
+        }
+        outputs
+        {
+            item 1 SQSF.AphidsPack200,
+        }
+    }
+    craftRecipe MakeSlugsPack200
+    {
+        Icon = Item_SQSF_Slugs,
+        timedAction = Making,
+        Time = 100,
+        NeedToBeLearn = false,
+        Tags = InHandCraft;Farming,
+        category = SuQingIrrigation,
+        inputs
+        {
+            item 2 [Base.Plank] mode:destroy flags[ItemCount],
+            item 1 [*],
+            -fluid 4.0 [Water],
+            item 4 [Base.Salt] mode:destroy flags[ItemCount],
+        }
+        outputs
+        {
+            item 1 SQSF.SlugsPack200,
+        }
+    }
+    craftRecipe RefillSlugsPack200
+    {
+        Icon = Item_SQSF_Slugs,
+        timedAction = Making,
+        Time = 100,
+        NeedToBeLearn = false,
+        Tags = InHandCraft;Farming,
+        category = SuQingIrrigation,
+        inputs
+        {
+            item 1 [SQSF.EmptyPack200] mode:destroy flags[ItemCount],
+            item 1 [*],
+            -fluid 4.0 [Water],
+            item 4 [Base.Salt] mode:destroy flags[ItemCount],
+        }
+        outputs
+        {
+            item 1 SQSF.SlugsPack200,
+        }
+    }
+}

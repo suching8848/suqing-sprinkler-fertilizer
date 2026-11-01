@@ -1,0 +1,51 @@
+VERSION = 1,
+
+option SuQingSprinklerFertilizer.FertilizerCost
+{
+    type = double,
+    min = 0.01,
+    max = 2.0,
+    default = 1.0,
+    page = SuQingSprinklerFertilizer,
+    translation = SuQingSprinklerFertilizer_FertilizerCost,
+}
+
+option SuQingSprinklerFertilizer.MildewCost
+{
+    type = double,
+    min = 0.01,
+    max = 2.0,
+    default = 1.0,
+    page = SuQingSprinklerFertilizer,
+    translation = SuQingSprinklerFertilizer_MildewCost,
+}
+
+option SuQingSprinklerFertilizer.FliesCost
+{
+    type = double,
+    min = 0.01,
+    max = 2.0,
+    default = 1.0,
+    page = SuQingSprinklerFertilizer,
+    translation = SuQingSprinklerFertilizer_FliesCost,
+}
+
+option SuQingSprinklerFertilizer.AphidsCost
+{
+    type = double,
+    min = 0.01,
+    max = 2.0,
+    default = 1.0,
+    page = SuQingSprinklerFertilizer,
+    translation = SuQingSprinklerFertilizer_AphidsCost,
+}
+
+option SuQingSprinklerFertilizer.SlugsCost
+{
+    type = double,
+    min = 0.01,
+    max = 2.0,
+    default = 1.0,
+    page = SuQingSprinklerFertilizer,
+    translation = SuQingSprinklerFertilizer_SlugsCost,
+}

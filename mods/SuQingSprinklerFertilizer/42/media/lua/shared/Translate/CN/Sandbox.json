@@ -1,0 +1,13 @@
+{
+  "Sandbox_SuQingSprinklerFertilizer": "蘇清的喷洒器养护",
+  "Sandbox_SuQingSprinklerFertilizer_FertilizerCost": "化肥消耗倍率",
+  "Sandbox_SuQingSprinklerFertilizer_FertilizerCost_tooltip": "默认1，范围0.01～2。只改变本模组喷洒器每次操作的耗材量，不改变药效或已有库存。0.01=消耗百分之一；1=原版一份；2=两份。库存不足时跳过。小数按0.0001份记录。",
+  "Sandbox_SuQingSprinklerFertilizer_MildewCost": "霉菌喷雾消耗倍率",
+  "Sandbox_SuQingSprinklerFertilizer_MildewCost_tooltip": "默认1，范围0.01～2。只改变本模组喷洒器每次操作的耗材量，不改变药效或已有库存。0.01=消耗百分之一；1=原版一份；2=两份。库存不足时跳过。小数按0.0001份记录。",
+  "Sandbox_SuQingSprinklerFertilizer_FliesCost": "除虫喷雾消耗倍率",
+  "Sandbox_SuQingSprinklerFertilizer_FliesCost_tooltip": "默认1，范围0.01～2。只改变本模组喷洒器每次操作的耗材量，不改变药效或已有库存。0.01=消耗百分之一；1=原版一份；2=两份。库存不足时跳过。小数按0.0001份记录。",
+  "Sandbox_SuQingSprinklerFertilizer_AphidsCost": "蚜虫喷雾消耗倍率",
+  "Sandbox_SuQingSprinklerFertilizer_AphidsCost_tooltip": "默认1，范围0.01～2。只改变本模组喷洒器每次操作的耗材量，不改变药效或已有库存。0.01=消耗百分之一；1=原版一份；2=两份。库存不足时跳过。小数按0.0001份记录。",
+  "Sandbox_SuQingSprinklerFertilizer_SlugsCost": "蛞蝓驱虫剂消耗倍率",
+  "Sandbox_SuQingSprinklerFertilizer_SlugsCost_tooltip": "默认1，范围0.01～2。只改变本模组喷洒器每次操作的耗材量，不改变药效或已有库存。0.01=消耗百分之一；1=原版一份；2=两份。库存不足时跳过。小数按0.0001份记录。"
+}

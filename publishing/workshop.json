@@ -1,0 +1,16 @@
+{
+  "title": "蘇清的喷洒器施肥扩展",
+  "version": "0.3.2-rc.1",
+  "workshop_id": null,
+  "mod_id": "SuQingSprinklerFertilizer",
+  "required_workshop_ids": [
+    "3546314080"
+  ],
+  "tags": [
+    "Build 42",
+    "Farming",
+    "QoL"
+  ],
+  "status": "local_candidate_awaiting_gameplay_acceptance",
+  "preview": null
+}

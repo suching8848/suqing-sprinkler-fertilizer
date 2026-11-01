@@ -1,0 +1,34 @@
+{
+  "tool": "built-in image_gen",
+  "reference_roles": [
+    "User white-haired dragon character concept",
+    "Existing SuQing refrigeration equipment icon",
+    "Existing SuQing character charm icon and newly generated irrigation-family icon"
+  ],
+  "prompts": [
+    {
+      "key": "Irrigation",
+      "prompt": "Use case: stylized-concept. Generate ONE transparent square pixel-art game inventory/category icon for the Project Zomboid mod named SuQing Irrigation Care. Reference image 1 is the user's white-haired lilac-eyed dragon girl, with two pale curved horns, small lavender wings and white/lilac dress: preserve these recognizable motifs as a tiny chibi mascot bust. Reference image 2 is their other mod's richly shaded pixel-art equipment icon; reference 3 is their existing chibi mascot inventory icon. New subject: compact silver-lavender irrigation pump with a turquoise pipe and large blue water-drop emblem, the small white dragon girl mascot integrated behind the pump. Charming polished pixel art, crisp readable cluster shapes and dark outlines, limited highlights, recognizable downscaled to 64x64, object occupies 85% of square with generous transparent padding. Actual transparent alpha background. No text, no letters, no number, no background scenery, no watermark. One isolated icon, not a contact sheet."
+    },
+    {
+      "key": "Mildew",
+      "prompt": "Use case: stylized-concept. Generate ONE isolated transparent square pixel-art inventory icon for SuQing's Project Zomboid irrigation mod. A reusable compact wooden-framed gardening medicine case, with handle, sealed inner pouch and metal corners. pearl white and lavender trim, a white milk-drop emblem representing mildew treatment. A small white-haired two-horned dragon girl face seal on the front references image 1; silver/lilac fittings and a tiny lavender wing motif. Image 2 guides the existing richly shaded pixel-art item style; image 3 establishes the irrigation mod's white/lavender/turquoise mascot family. Crisp dark outlines, readable simple pixel clusters, isometric three-quarter view, whole case visible, centered at 80% square with generous transparent margins. Must read at 64x64 pixels. No text, no letters, no numbers, no watermark, no scenery, no extra objects, no bottle or spray bottle. Exactly one icon. Actual transparent alpha background."
+    },
+    {
+      "key": "Flies",
+      "prompt": "Use case: stylized-concept. Generate ONE isolated transparent square pixel-art inventory icon for SuQing's Project Zomboid irrigation mod. A reusable compact wooden-framed gardening medicine case, with handle, sealed inner pouch and metal corners. warm amber and lavender trim, a simple small fly silhouette emblem representing fly treatment. A small white-haired two-horned dragon girl face seal on the front references image 1; silver/lilac fittings and a tiny lavender wing motif. Image 2 guides the existing richly shaded pixel-art item style; image 3 establishes the irrigation mod's white/lavender/turquoise mascot family. Crisp dark outlines, readable simple pixel clusters, isometric three-quarter view, whole case visible, centered at 80% square with generous transparent margins. Must read at 64x64 pixels. No text, no letters, no numbers, no watermark, no scenery, no extra objects, no bottle or spray bottle. Exactly one icon. Actual transparent alpha background."
+    },
+    {
+      "key": "Aphids",
+      "prompt": "Use case: stylized-concept. Generate ONE isolated transparent square pixel-art inventory icon for SuQing's Project Zomboid irrigation mod. A reusable compact wooden-framed gardening medicine case, with handle, sealed inner pouch and metal corners. mint green and lavender trim, a bright green leaf with a tiny aphid emblem. A small white-haired two-horned dragon girl face seal on the front references image 1; silver/lilac fittings and a tiny lavender wing motif. Image 2 guides the existing richly shaded pixel-art item style; image 3 establishes the irrigation mod's white/lavender/turquoise mascot family. Crisp dark outlines, readable simple pixel clusters, isometric three-quarter view, whole case visible, centered at 80% square with generous transparent margins. Must read at 64x64 pixels. No text, no letters, no numbers, no watermark, no scenery, no extra objects, no bottle or spray bottle. Exactly one icon. Actual transparent alpha background."
+    },
+    {
+      "key": "Slugs",
+      "prompt": "Use case: stylized-concept. Generate ONE isolated transparent square pixel-art inventory icon for SuQing's Project Zomboid irrigation mod. A reusable compact wooden-framed gardening medicine case, with handle, sealed inner pouch and metal corners. coral orange and lavender trim, a simple little slug silhouette emblem. A small white-haired two-horned dragon girl face seal on the front references image 1; silver/lilac fittings and a tiny lavender wing motif. Image 2 guides the existing richly shaded pixel-art item style; image 3 establishes the irrigation mod's white/lavender/turquoise mascot family. Crisp dark outlines, readable simple pixel clusters, isometric three-quarter view, whole case visible, centered at 80% square with generous transparent margins. Must read at 64x64 pixels. No text, no letters, no numbers, no watermark, no scenery, no extra objects, no bottle or spray bottle. Exactly one icon. Actual transparent alpha background."
+    },
+    {
+      "key": "Empty",
+      "prompt": "Use case: stylized-concept. Generate ONE isolated transparent square pixel-art inventory icon for SuQing's Project Zomboid irrigation mod. A reusable compact wooden-framed gardening medicine case, with handle, sealed inner pouch and metal corners. neutral gray and lavender trim, an open lid showing an EMPTY interior, no liquid, a small blue droplet outline emblem. A small white-haired two-horned dragon girl face seal on the front references image 1; silver/lilac fittings and a tiny lavender wing motif. Image 2 guides the existing richly shaded pixel-art item style; image 3 establishes the irrigation mod's white/lavender/turquoise mascot family. Crisp dark outlines, readable simple pixel clusters, isometric three-quarter view, whole case visible, centered at 80% square with generous transparent margins. Must read at 64x64 pixels. No text, no letters, no numbers, no watermark, no scenery, no extra objects, no bottle or spray bottle. Exactly one icon. Actual transparent alpha background."
+    }
+  ]
+}

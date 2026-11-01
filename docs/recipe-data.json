@@ -1,0 +1,338 @@
+[
+  {
+    "id": "MakeMildewPack50",
+    "size": 50,
+    "kind": "Mildew",
+    "refill": false,
+    "material_multiplier": 1,
+    "water": 0,
+    "inputs": [
+      "item 1 [Base.Plank] mode:destroy flags[ItemCount],",
+      "item 1 [*],",
+      "-fluid 1.0 [CowMilk;SheepMilk;AnimalMilk],"
+    ]
+  },
+  {
+    "id": "RefillMildewPack50",
+    "size": 50,
+    "kind": "Mildew",
+    "refill": true,
+    "material_multiplier": 1,
+    "water": 0,
+    "inputs": [
+      "item 1 [SQSF.EmptyPack50] mode:destroy flags[ItemCount],",
+      "item 1 [*],",
+      "-fluid 1.0 [CowMilk;SheepMilk;AnimalMilk],"
+    ]
+  },
+  {
+    "id": "MakeFliesPack50Cigarettes",
+    "size": 50,
+    "kind": "Flies",
+    "refill": false,
+    "material_multiplier": 1,
+    "water": 1,
+    "inputs": [
+      "item 1 [Base.Plank] mode:destroy flags[ItemCount],",
+      "item 1 [*],",
+      "-fluid 1.0 [Water],",
+      "item 5 [Base.CigaretteSingle] flags[ItemCount],"
+    ]
+  },
+  {
+    "id": "RefillFliesPack50Cigarettes",
+    "size": 50,
+    "kind": "Flies",
+    "refill": true,
+    "material_multiplier": 1,
+    "water": 1,
+    "inputs": [
+      "item 1 [SQSF.EmptyPack50] mode:destroy flags[ItemCount],",
+      "item 1 [*],",
+      "-fluid 1.0 [Water],",
+      "item 5 [Base.CigaretteSingle] flags[ItemCount],"
+    ]
+  },
+  {
+    "id": "MakeFliesPack50Tobacco",
+    "size": 50,
+    "kind": "Flies",
+    "refill": false,
+    "material_multiplier": 1,
+    "water": 1,
+    "inputs": [
+      "item 1 [Base.Plank] mode:destroy flags[ItemCount],",
+      "item 1 [*],",
+      "-fluid 1.0 [Water],",
+      "item 8 tags[base:tobacco],"
+    ]
+  },
+  {
+    "id": "RefillFliesPack50Tobacco",
+    "size": 50,
+    "kind": "Flies",
+    "refill": true,
+    "material_multiplier": 1,
+    "water": 1,
+    "inputs": [
+      "item 1 [SQSF.EmptyPack50] mode:destroy flags[ItemCount],",
+      "item 1 [*],",
+      "-fluid 1.0 [Water],",
+      "item 8 tags[base:tobacco],"
+    ]
+  },
+  {
+    "id": "MakeFliesPack50Chewing",
+    "size": 50,
+    "kind": "Flies",
+    "refill": false,
+    "material_multiplier": 1,
+    "water": 1,
+    "inputs": [
+      "item 1 [Base.Plank] mode:destroy flags[ItemCount],",
+      "item 1 [*],",
+      "-fluid 1.0 [Water],",
+      "item 5.0 [Base.TobaccoChewing],"
+    ]
+  },
+  {
+    "id": "RefillFliesPack50Chewing",
+    "size": 50,
+    "kind": "Flies",
+    "refill": true,
+    "material_multiplier": 1,
+    "water": 1,
+    "inputs": [
+      "item 1 [SQSF.EmptyPack50] mode:destroy flags[ItemCount],",
+      "item 1 [*],",
+      "-fluid 1.0 [Water],",
+      "item 5.0 [Base.TobaccoChewing],"
+    ]
+  },
+  {
+    "id": "MakeAphidsPack50",
+    "size": 50,
+    "kind": "Aphids",
+    "refill": false,
+    "material_multiplier": 1,
+    "water": 1,
+    "inputs": [
+      "item 1 [Base.Plank] mode:destroy flags[ItemCount],",
+      "item 1 [*],",
+      "-fluid 1.0 [Water],",
+      "item 1 [*],",
+      "-fluid 0.2 [RubbingAlcohol],"
+    ]
+  },
+  {
+    "id": "RefillAphidsPack50",
+    "size": 50,
+    "kind": "Aphids",
+    "refill": true,
+    "material_multiplier": 1,
+    "water": 1,
+    "inputs": [
+      "item 1 [SQSF.EmptyPack50] mode:destroy flags[ItemCount],",
+      "item 1 [*],",
+      "-fluid 1.0 [Water],",
+      "item 1 [*],",
+      "-fluid 0.2 [RubbingAlcohol],"
+    ]
+  },
+  {
+    "id": "MakeSlugsPack50",
+    "size": 50,
+    "kind": "Slugs",
+    "refill": false,
+    "material_multiplier": 1,
+    "water": 1,
+    "inputs": [
+      "item 1 [Base.Plank] mode:destroy flags[ItemCount],",
+      "item 1 [*],",
+      "-fluid 1.0 [Water],",
+      "item 1 [Base.Salt] mode:destroy flags[ItemCount],"
+    ]
+  },
+  {
+    "id": "RefillSlugsPack50",
+    "size": 50,
+    "kind": "Slugs",
+    "refill": true,
+    "material_multiplier": 1,
+    "water": 1,
+    "inputs": [
+      "item 1 [SQSF.EmptyPack50] mode:destroy flags[ItemCount],",
+      "item 1 [*],",
+      "-fluid 1.0 [Water],",
+      "item 1 [Base.Salt] mode:destroy flags[ItemCount],"
+    ]
+  },
+  {
+    "id": "MakeMildewPack200",
+    "size": 200,
+    "kind": "Mildew",
+    "refill": false,
+    "material_multiplier": 4,
+    "water": 0,
+    "inputs": [
+      "item 2 [Base.Plank] mode:destroy flags[ItemCount],",
+      "item 1 [*],",
+      "-fluid 4.0 [CowMilk;SheepMilk;AnimalMilk],"
+    ]
+  },
+  {
+    "id": "RefillMildewPack200",
+    "size": 200,
+    "kind": "Mildew",
+    "refill": true,
+    "material_multiplier": 4,
+    "water": 0,
+    "inputs": [
+      "item 1 [SQSF.EmptyPack200] mode:destroy flags[ItemCount],",
+      "item 1 [*],",
+      "-fluid 4.0 [CowMilk;SheepMilk;AnimalMilk],"
+    ]
+  },
+  {
+    "id": "MakeFliesPack200Cigarettes",
+    "size": 200,
+    "kind": "Flies",
+    "refill": false,
+    "material_multiplier": 4,
+    "water": 4,
+    "inputs": [
+      "item 2 [Base.Plank] mode:destroy flags[ItemCount],",
+      "item 1 [*],",
+      "-fluid 4.0 [Water],",
+      "item 20 [Base.CigaretteSingle] flags[ItemCount],"
+    ]
+  },
+  {
+    "id": "RefillFliesPack200Cigarettes",
+    "size": 200,
+    "kind": "Flies",
+    "refill": true,
+    "material_multiplier": 4,
+    "water": 4,
+    "inputs": [
+      "item 1 [SQSF.EmptyPack200] mode:destroy flags[ItemCount],",
+      "item 1 [*],",
+      "-fluid 4.0 [Water],",
+      "item 20 [Base.CigaretteSingle] flags[ItemCount],"
+    ]
+  },
+  {
+    "id": "MakeFliesPack200Tobacco",
+    "size": 200,
+    "kind": "Flies",
+    "refill": false,
+    "material_multiplier": 4,
+    "water": 4,
+    "inputs": [
+      "item 2 [Base.Plank] mode:destroy flags[ItemCount],",
+      "item 1 [*],",
+      "-fluid 4.0 [Water],",
+      "item 32 tags[base:tobacco],"
+    ]
+  },
+  {
+    "id": "RefillFliesPack200Tobacco",
+    "size": 200,
+    "kind": "Flies",
+    "refill": true,
+    "material_multiplier": 4,
+    "water": 4,
+    "inputs": [
+      "item 1 [SQSF.EmptyPack200] mode:destroy flags[ItemCount],",
+      "item 1 [*],",
+      "-fluid 4.0 [Water],",
+      "item 32 tags[base:tobacco],"
+    ]
+  },
+  {
+    "id": "MakeFliesPack200Chewing",
+    "size": 200,
+    "kind": "Flies",
+    "refill": false,
+    "material_multiplier": 4,
+    "water": 4,
+    "inputs": [
+      "item 2 [Base.Plank] mode:destroy flags[ItemCount],",
+      "item 1 [*],",
+      "-fluid 4.0 [Water],",
+      "item 20.0 [Base.TobaccoChewing],"
+    ]
+  },
+  {
+    "id": "RefillFliesPack200Chewing",
+    "size": 200,
+    "kind": "Flies",
+    "refill": true,
+    "material_multiplier": 4,
+    "water": 4,
+    "inputs": [
+      "item 1 [SQSF.EmptyPack200] mode:destroy flags[ItemCount],",
+      "item 1 [*],",
+      "-fluid 4.0 [Water],",
+      "item 20.0 [Base.TobaccoChewing],"
+    ]
+  },
+  {
+    "id": "MakeAphidsPack200",
+    "size": 200,
+    "kind": "Aphids",
+    "refill": false,
+    "material_multiplier": 4,
+    "water": 4,
+    "inputs": [
+      "item 2 [Base.Plank] mode:destroy flags[ItemCount],",
+      "item 1 [*],",
+      "-fluid 4.0 [Water],",
+      "item 1 [*],",
+      "-fluid 0.8 [RubbingAlcohol],"
+    ]
+  },
+  {
+    "id": "RefillAphidsPack200",
+    "size": 200,
+    "kind": "Aphids",
+    "refill": true,
+    "material_multiplier": 4,
+    "water": 4,
+    "inputs": [
+      "item 1 [SQSF.EmptyPack200] mode:destroy flags[ItemCount],",
+      "item 1 [*],",
+      "-fluid 4.0 [Water],",
+      "item 1 [*],",
+      "-fluid 0.8 [RubbingAlcohol],"
+    ]
+  },
+  {
+    "id": "MakeSlugsPack200",
+    "size": 200,
+    "kind": "Slugs",
+    "refill": false,
+    "material_multiplier": 4,
+    "water": 4,
+    "inputs": [
+      "item 2 [Base.Plank] mode:destroy flags[ItemCount],",
+      "item 1 [*],",
+      "-fluid 4.0 [Water],",
+      "item 4 [Base.Salt] mode:destroy flags[ItemCount],"
+    ]
+  },
+  {
+    "id": "RefillSlugsPack200",
+    "size": 200,
+    "kind": "Slugs",
+    "refill": true,
+    "material_multiplier": 4,
+    "water": 4,
+    "inputs": [
+      "item 1 [SQSF.EmptyPack200] mode:destroy flags[ItemCount],",
+      "item 1 [*],",
+      "-fluid 4.0 [Water],",
+      "item 4 [Base.Salt] mode:destroy flags[ItemCount],"
+    ]
+  }
+]

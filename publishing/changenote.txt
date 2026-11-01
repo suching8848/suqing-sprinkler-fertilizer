@@ -1,0 +1,1 @@
+0.3.2-rc.1: Per-sprinkler care and pump-input controls from the pump, independent per resource. Care OFF blocks both sources. Added Neat Crafting category icon. Local candidate; gameplay acceptance pending.

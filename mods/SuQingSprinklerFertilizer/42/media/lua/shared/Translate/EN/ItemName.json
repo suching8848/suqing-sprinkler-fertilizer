@@ -1,0 +1,13 @@
+{
+  "SQSF.CareResidue": "Legacy residue (conversion only)",
+  "SQSF.EmptyPack50": "Empty care pack (50 doses)",
+  "SQSF.MildewPack50": "Mildew treatment pack (50 doses)",
+  "SQSF.FliesPack50": "Fly treatment pack (50 doses)",
+  "SQSF.AphidsPack50": "Aphid treatment pack (50 doses)",
+  "SQSF.SlugsPack50": "Slug treatment pack (50 doses)",
+  "SQSF.EmptyPack200": "Empty care pack (200 doses)",
+  "SQSF.MildewPack200": "Mildew treatment pack (200 doses)",
+  "SQSF.FliesPack200": "Fly treatment pack (200 doses)",
+  "SQSF.AphidsPack200": "Aphid treatment pack (200 doses)",
+  "SQSF.SlugsPack200": "Slug treatment pack (200 doses)"
+}

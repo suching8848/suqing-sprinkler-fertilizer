@@ -1,0 +1,5 @@
+{
+  "Tooltip_SQSF_Pack": "Load through irrigation management. Depletion leaves a reusable empty pack; empty packs also recover medicine.",
+  "Tooltip_SQSF_Empty": "Refill with any care medicine of this size without more planks, or use it to recover stored medicine.",
+  "Tooltip_SQSF_Legacy": "Legacy conversion only: load into a device to retain whole doses and discard fractions. No new residue is generated."
+}

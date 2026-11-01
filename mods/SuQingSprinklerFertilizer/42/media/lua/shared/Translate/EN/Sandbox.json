@@ -1,0 +1,13 @@
+{
+  "Sandbox_SuQingSprinklerFertilizer": "SuQing Sprinkler Care",
+  "Sandbox_SuQingSprinklerFertilizer_FertilizerCost": "Fertilizer consumption multiplier",
+  "Sandbox_SuQingSprinklerFertilizer_FertilizerCost_tooltip": "Default 1; range 0.01-2. Affects only this sprinkler add-on, not effect strength or stored material. 0.01 uses 1%; 1 uses one native dose; 2 uses two doses. Insufficient stock skips the action. Precision: 0.0001 dose.",
+  "Sandbox_SuQingSprinklerFertilizer_MildewCost": "Mildew spray consumption multiplier",
+  "Sandbox_SuQingSprinklerFertilizer_MildewCost_tooltip": "Default 1; range 0.01-2. Affects only this sprinkler add-on, not effect strength or stored material. 0.01 uses 1%; 1 uses one native dose; 2 uses two doses. Insufficient stock skips the action. Precision: 0.0001 dose.",
+  "Sandbox_SuQingSprinklerFertilizer_FliesCost": "Insecticide spray consumption multiplier",
+  "Sandbox_SuQingSprinklerFertilizer_FliesCost_tooltip": "Default 1; range 0.01-2. Affects only this sprinkler add-on, not effect strength or stored material. 0.01 uses 1%; 1 uses one native dose; 2 uses two doses. Insufficient stock skips the action. Precision: 0.0001 dose.",
+  "Sandbox_SuQingSprinklerFertilizer_AphidsCost": "Aphid spray consumption multiplier",
+  "Sandbox_SuQingSprinklerFertilizer_AphidsCost_tooltip": "Default 1; range 0.01-2. Affects only this sprinkler add-on, not effect strength or stored material. 0.01 uses 1%; 1 uses one native dose; 2 uses two doses. Insufficient stock skips the action. Precision: 0.0001 dose.",
+  "Sandbox_SuQingSprinklerFertilizer_SlugsCost": "Slug repellent consumption multiplier",
+  "Sandbox_SuQingSprinklerFertilizer_SlugsCost_tooltip": "Default 1; range 0.01-2. Affects only this sprinkler add-on, not effect strength or stored material. 0.01 uses 1%; 1 uses one native dose; 2 uses two doses. Insufficient stock skips the action. Precision: 0.0001 dose."
+}

@@ -1,0 +1,126 @@
+module SQSF
+{
+    item EmptyPack50
+    {
+        ItemType = base:normal,
+        DisplayCategory = Gardening,
+        Weight = 0.3,
+        Icon = SQSF_Empty,
+        WorldStaticModel = Paperbag_Ground,
+        Tooltip = Tooltip_SQSF_Empty,
+    }
+    item MildewPack50
+    {
+        ItemType = base:drainable,
+        DisplayCategory = Gardening,
+        Weight = 1.3,
+        UseDelta = 0.020,
+        ReplaceOnDeplete = SQSF.EmptyPack50,
+        UseWhileEquipped = false,
+        Icon = SQSF_Mildew,
+        WorldStaticModel = Paperbag_Ground,
+        Tooltip = Tooltip_SQSF_Pack,
+    }
+    item FliesPack50
+    {
+        ItemType = base:drainable,
+        DisplayCategory = Gardening,
+        Weight = 1.3,
+        UseDelta = 0.020,
+        ReplaceOnDeplete = SQSF.EmptyPack50,
+        UseWhileEquipped = false,
+        Icon = SQSF_Flies,
+        WorldStaticModel = Paperbag_Ground,
+        Tooltip = Tooltip_SQSF_Pack,
+    }
+    item AphidsPack50
+    {
+        ItemType = base:drainable,
+        DisplayCategory = Gardening,
+        Weight = 1.3,
+        UseDelta = 0.020,
+        ReplaceOnDeplete = SQSF.EmptyPack50,
+        UseWhileEquipped = false,
+        Icon = SQSF_Aphids,
+        WorldStaticModel = Paperbag_Ground,
+        Tooltip = Tooltip_SQSF_Pack,
+    }
+    item SlugsPack50
+    {
+        ItemType = base:drainable,
+        DisplayCategory = Gardening,
+        Weight = 1.3,
+        UseDelta = 0.020,
+        ReplaceOnDeplete = SQSF.EmptyPack50,
+        UseWhileEquipped = false,
+        Icon = SQSF_Slugs,
+        WorldStaticModel = Paperbag_Ground,
+        Tooltip = Tooltip_SQSF_Pack,
+    }
+    item EmptyPack200
+    {
+        ItemType = base:normal,
+        DisplayCategory = Gardening,
+        Weight = 0.6,
+        Icon = SQSF_Empty,
+        WorldStaticModel = Paperbag_Ground,
+        Tooltip = Tooltip_SQSF_Empty,
+    }
+    item MildewPack200
+    {
+        ItemType = base:drainable,
+        DisplayCategory = Gardening,
+        Weight = 4.6,
+        UseDelta = 0.005,
+        ReplaceOnDeplete = SQSF.EmptyPack200,
+        UseWhileEquipped = false,
+        Icon = SQSF_Mildew,
+        WorldStaticModel = Paperbag_Ground,
+        Tooltip = Tooltip_SQSF_Pack,
+    }
+    item FliesPack200
+    {
+        ItemType = base:drainable,
+        DisplayCategory = Gardening,
+        Weight = 4.6,
+        UseDelta = 0.005,
+        ReplaceOnDeplete = SQSF.EmptyPack200,
+        UseWhileEquipped = false,
+        Icon = SQSF_Flies,
+        WorldStaticModel = Paperbag_Ground,
+        Tooltip = Tooltip_SQSF_Pack,
+    }
+    item AphidsPack200
+    {
+        ItemType = base:drainable,
+        DisplayCategory = Gardening,
+        Weight = 4.6,
+        UseDelta = 0.005,
+        ReplaceOnDeplete = SQSF.EmptyPack200,
+        UseWhileEquipped = false,
+        Icon = SQSF_Aphids,
+        WorldStaticModel = Paperbag_Ground,
+        Tooltip = Tooltip_SQSF_Pack,
+    }
+    item SlugsPack200
+    {
+        ItemType = base:drainable,
+        DisplayCategory = Gardening,
+        Weight = 4.6,
+        UseDelta = 0.005,
+        ReplaceOnDeplete = SQSF.EmptyPack200,
+        UseWhileEquipped = false,
+        Icon = SQSF_Slugs,
+        WorldStaticModel = Paperbag_Ground,
+        Tooltip = Tooltip_SQSF_Pack,
+    }
+    item CareResidue
+    {
+        ItemType = base:normal,
+        DisplayCategory = Gardening,
+        Weight = 0.01,
+        Icon = Paperbag,
+        WorldStaticModel = Paperbag_Ground,
+        Tooltip = Tooltip_SQSF_Legacy,
+    }
+}
