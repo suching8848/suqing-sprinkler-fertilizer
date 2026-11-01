@@ -1,4 +1,4 @@
-# 蘇清的喷洒器施肥模组 | SuQing's Sprinkler Fertilizer and Care
+# 蘇清的灌溉养护模组 / SuQing’s Irrigation Care Mod
 
 中文 | [English](README.en.md)
 
@@ -8,7 +8,7 @@
 
 唯一必需的外部模组是 **Water Pipes / `Waterpipes`**。本模组不依赖 Batch Farming、Neat Crafting 或其他蘇清模组，Neat Crafting 的分类图标属于可选界面适配。
 
-[蘇清的综合补丁](https://github.com/suching8848/suqing-project-zomboid-patches/) 按需单独启用，不是本模组的强制前置。集合中的 `SuQingBatchFarmingMenu_4221` 仅筛选 **Batch Farming** 的菜单，只有使用 Batch Farming 时才有意义，不参与本模组的水泵、供料或施肥逻辑。
+[蘇清的僵尸毁灭工程补丁合集](https://github.com/suching8848/suqing-project-zomboid-patches/) 按需单独启用，不是本模组的强制前置。集合中的 `SuQingBatchFarmingMenu_4221` 仅筛选 **Batch Farming** 的菜单，只有使用 Batch Farming 时才有意义，不参与本模组的水泵、供料或施肥逻辑。
 
 ## 安装与升级
 
@@ -89,3 +89,9 @@
 仓库包含 mods、tools、tests、docs、art、publishing；validation 和 releases 忽略提交。六个透明 128×128 图标由内置 image_gen 根据用户概念图与其他蘇清模组风格生成，[完整提示词](art/icon-prompts.json)。
 
 感谢 Water Pipes 作者 Slayer。本项目为独立扩展，不含游戏、Water Pipes、Batch Farming 源码或美术。尚未指定开源许可证；Git 可保存当前候选版源码，创意工坊封面与上传属于后续发布工作。
+
+## 相关项目与配置快照
+
+[全部 8 个模组与补丁仓库](docs/project-index.md) · [当前单人档 205 项启用顺序](docs/current-single-player-modlist.md) · [作者 Steam 合集](https://steamcommunity.com/sharedfiles/filedetails/?id=3823981387)
+
+源码索引涵盖 37 个 Mod ID。Steam 合集不附带独立本地补丁；按各项目的前置和条件兼容说明选择子项。启用快照不代表每个项目或新增版本均已通过游戏内验收。

@@ -1,4 +1,4 @@
-# SuQing's Sprinkler Fertilizer and Care | 蘇清的喷洒器施肥模组
+# SuQing’s Irrigation Care Mod / 蘇清的灌溉养护模组
 
 [中文](README.md) | English
 
@@ -85,3 +85,9 @@ Before disabling, switch off care, reclaim device and pending recovery stocks, a
 The repository retains mod files, tools, tests, docs, generated icon prompts and publishing metadata. Local validation outputs, release ZIPs, compiler caches and private settings are excluded from Git. Six transparent 128×128 icons were generated with image_gen from the user's reference concept and the other SuQing mods' style; [prompts](art/icon-prompts.json) are retained.
 
 Thanks to Water Pipes author Slayer. This independent add-on does not bundle game, Water Pipes or Batch Farming source code or artwork. No open-source license has been assigned. Git can preserve candidate source versions; a Workshop cover and upload are separate later publishing work.
+
+## Related projects and setup snapshot
+
+[All eight mod and patch repositories](docs/project-index.md) · [Current 205-ID enabled order](docs/current-single-player-modlist.md) · [Author’s Steam collection](https://steamcommunity.com/sharedfiles/filedetails/?id=3823981387)
+
+The source index covers 37 Mod IDs. The Steam collection does not include separately installed local patches; select entries using each project’s requirements and conditional integration notes. Enabled state does not establish in-game acceptance of every project or new version.
