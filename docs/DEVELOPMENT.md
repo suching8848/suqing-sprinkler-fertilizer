@@ -1,6 +1,6 @@
 # 开发、验收与发布要求
 
-2026-11-02，当前 0.3.2-rc.1。沿用其他蘇清模组的独立目录、固定 ID、多语言和版本化发布资料做法。
+2026-11-02，当前 1.0.0。沿用其他蘇清模组的独立目录、固定 ID、多语言和版本化发布资料做法。
 
 ## 维护约定
 
@@ -23,9 +23,10 @@ javac -d validation tools/KahluaValidation.java tools/NativeValidation.java
 python tools/run_tests.py --game '<游戏目录>' --water-pipes '<当前WaterPipes版本目录>'
 python tools/validate_package.py
 python tools/build_release.py
+python tools/build_workshop.py
 ```
 
-当前测试入口为 prelude_v3、resources_v3、network_v3、ui_fixture_v3、ui_v4 和 upstream_v3。执行真实农业方法、上游供水回调和窗口 Lua，场景/库存/UI 边界为受控替身。Java检查真实ScriptParser、CraftRecipe.Load、DrainableComboItem和Kahlua表序列化；不创建世界或游戏界面。
+当前测试入口为 prelude_v3、resources_v3、network_v3、ui_fixture_v3、ui_v4、controls_v5 和 upstream_v3。执行真实农业方法、上游供水回调和窗口 Lua，场景/库存/UI 边界为受控替身。Java检查真实ScriptParser、CraftRecipe.Load、DrainableComboItem和Kahlua表序列化；不创建世界或游戏界面。
 
 B42.21 CraftRecipeManager 的液体消耗使用累计 fluidConsumed。液体父输入不带 ItemCount，因此可以合计多个容器；实际制作及水容器保留纳入游戏验收。
 
@@ -33,7 +34,7 @@ B42.21 CraftRecipeManager 的液体消耗使用累计 fluidConsumed。液体父�
 
 ## 游戏验收与回退
 
-0.2 全部功能用户已反馈通过；0.3 制作、装填、窗口、管网、返还、搬移及保存重进待实测，参见 TESTING_0.3.md。离线通过不能称作游戏通过。
+2026-11-02用户反馈当前单人游玩暂无问题，授权准备1.0.0正式版。记录为用户整体体验反馈，不扩大为每种作物、搬移与保存重进等所有分支逐项实测；保留 TESTING_0.3.2.md 作为后续复查清单。离线验证与用户游戏反馈分别记录，见 RELEASE_1.0.0.md。
 
 部署前确认游戏退出，完整备份并逐文件核验，仅覆盖独立模组目录；保留名单顺序及差异，不改 map_sand.bin 或上游原件。
 
@@ -41,9 +42,9 @@ B42.21 CraftRecipeManager 的液体消耗使用累计 fluidConsumed。液体父�
 
 ## 发布
 
-Git 可先保留当前候选版源码及验证边界；创意工坊发布时再核对游戏验收、许可证、512×512封面和可见性。工坊采用Contents/mods，前置3546314080，标签Build 42/Farming/QoL，明确单人限制。由 Steam 分配首次 Workshop ID，以后更新同条目，Mod ID和物品ID保持不变。
+在既有Git仓库准备1.0.0源码与发布资料；创意工坊发布时核对验收记录、许可证、512×512封面和可见性。工坊采用Contents/mods，前置3546314080，标签Build 42/Farming/QoL，明确单人限制。由 Steam 分配首次 Workshop ID，以后更新同条目，Mod ID和物品ID保持不变。
 
-构建与验证工具只准备本地候选包和检查结果，不创建远程、不push、不上传工坊；Git 远程同步由维护者另行执行。
+构建与验证工具只准备本地发行包、上传目录和检查结果，不创建远程、不push、不上传工坊；Git远程同步与正式上传由维护者在对应授权下执行。封面不含游戏或模组版本号，适用版本写在元数据和发布说明中。
 
 0.3.1-rc.1：下拉框必须直接加载原版ISComboBox测试，禁止用宽松的空值处理替身覆盖其选择语义。clear保留旧索引、selectData找不到值不自动回退，刷新前安全读取，重建后先设定默认选项。
 
@@ -53,6 +54,12 @@ Git 可先保留当前候选版源码及验证边界；创意工坊发布时再�
 
 - projectDisabled[kind] 是项目总停用门禁；networkDisabled[kind] 是分项水泵输入门禁。缺失标记保持旧源选择顺序及旧本机开关；不按缺料或水泵停机改变开关状态。F.chooseSource 在任何扣料前统一检查。
 - 水泵远程控制仅允许 project/supply 两种设置操作，检查玩家距离、存活、单人模式、两端实体、注册记录、当前连通与排队动作；不允许 load/refund。未加载区域不写库存账本。UI 用750ms视图快照，点击重新构建/检查管网，避免每帧排序全部管路。
-- 单人保存由已有 ModData 路径完成；实际保存重进仍需用户验收。降级至0.3.1会忽略新增禁用标记，需要重新核对开关和供料；不能当作完整机制回滚。
+- 单人保存由已有 ModData 路径完成；用户已反馈当前整体游玩正常，保存重进仍保留独立复查步骤。降级至0.3.1会忽略新增禁用标记，需要重新核对开关和供料；不能当作完整机制回滚。
 - Neat Crafting 真实 NC_CategoryList_Slot:getCategoryIcon 按内部分类名读 media/ui/CategoryIcon/SuQingIrrigation.png。文件复用 Item_SQSF_Irrigation.png 原始字节，不修改 Neat Crafting。
 - tests/controls_v5.lua 覆盖实际停止扣料、独立输入、本机回退、断管/移除/换物体/卸载/距离/动作并发和布局。
+
+## 1.0.0 发布整理
+
+版本由0.3.2-rc.1提升为1.0.0，运行规则、Mod ID、物品ID、沙盒键和schema 3不变。用户个人档五项消耗0.05属于该存档配置；发行默认保持1，范围0.01～2，禁止将个人map_sand.bin或存档数据放入发布包。
+
+正式封面按用户所选温室图制作，移除游戏与模组版本号。发布准备只生成可复查产物，不代表已创建Steam条目或已同步远端。

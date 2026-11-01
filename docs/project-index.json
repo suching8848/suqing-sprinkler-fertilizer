@@ -56,7 +56,7 @@
       "title_zh": "蘇清的灌溉养护模组",
       "title_en": "SuQing’s Irrigation Care Mod",
       "repository": "https://github.com/suching8848/suqing-sprinkler-fertilizer",
-      "source_version": "0.3.2-rc.1",
+      "source_version": "1.0.0",
       "source_form": "complete_mod_package",
       "mod_info": "mods/SuQingSprinklerFertilizer/42/mod.info",
       "require_raw": "Waterpipes",

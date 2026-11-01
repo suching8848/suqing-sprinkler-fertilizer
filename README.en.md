@@ -2,7 +2,9 @@
 
 [中文](README.md) | English
 
-A single-player Water Pipes add-on with pump-fed fertilizer and disease treatments, sprinkler reservoirs, a management window and refillable care packs. Current version: **0.3.2-rc.1**, for **Project Zomboid Build 42.21**. The user reported the 0.2 features working; 0.3 has offline validation and still needs in-game acceptance. This mod has no published Workshop item yet.
+![Irrigation Care cover](publishing/preview.png)
+
+A single-player Water Pipes add-on with pump-fed fertilizer and disease treatments, sprinkler reservoirs, a management window and refillable care packs. Current version: **1.0.0**, for **Project Zomboid Build 42.21 single-player**. The user reported normal play with the current version; local stable-release preparation is complete. The Workshop item has not been uploaded yet.
 
 ## Dependencies and companion patches
 
@@ -66,17 +68,17 @@ Packs work with this add-on's devices, not as direct replacements for manual spr
 
 ## Costs, recovery and saves
 
-The sandbox page has five independent consumption multipliers, default **1**, range **0.01–2**. They change consumption only, not effects or existing stock. One dose is represented by 10,000 integer units. The next operation reads updated sandbox values; upgrading does not edit the save's sandbox file.
+The sandbox page has five independent consumption multipliers, default **1**, range **0.01–2**. They change consumption only, not effects or existing stock. One dose is represented by 10,000 integer units. The next operation reads updated sandbox values; upgrading does not edit the save's sandbox file. A personal save may use a value such as 0.05 (0.05 doses per operation); personal settings do not change release defaults.
 
 **Only reclamation or dismantling discards a fraction below one dose.** Reclaiming 12.75 doses returns 12 and discards 0.75; normal automatic consumption retains fractions. Treatment reclamation needs enough empty packs; the three sprays also accept empty spray bottles. Without sufficient packaging, no stock is reclaimed or deducted. Fertilizer and vanilla slug treatment need no empty spray bottle. Reclamation switches off that resource's local supply.
 
 New residue packs are no longer created. The old `SQSF.CareResidue` item remains solely for conversion: loading it transfers whole doses, discards the fraction and removes the old item.
 
-An independent ledger prevents copying stock by copying or moving objects. Normal dismantling puts whole-dose stock into the recovery page, reclaimable at another pump/sprinkler with packaging. Replaced devices start empty. Water Pipes' internal `silentRemove` replacements do not trigger refunds. Actual moving and save/reload behavior still need in-game acceptance.
+An independent ledger prevents copying stock by copying or moving objects. Normal dismantling puts whole-dose stock into the recovery page, reclaimable at another pump/sprinkler with packaging. Replaced devices start empty. Water Pipes' internal `silentRemove` replacements do not trigger refunds. The acceptance checklist retains focused moving and save/reload checks for future regression passes.
 
 ## Validation and removal
 
-Offline tests run the installed game's Kahlua VM, real `SPlantGlobalObject` methods and the installed Water Pipes watering callback with controlled scene, inventory and UI fixtures. Native Java checks cover loading 24 recipes, doses and serialization. Executing window Lua does not validate its in-game appearance. See the [0.3.2 acceptance checklist](docs/TESTING_0.3.2.md), [development notes](docs/DEVELOPMENT.md) and [offline tool instructions](tools/README.md).
+Offline tests run the installed game's Kahlua VM, real `SPlantGlobalObject` methods and the installed Water Pipes watering callback with controlled scene, inventory and UI fixtures. Native Java checks cover loading 24 recipes, doses and serialization. Executing window Lua does not validate its in-game appearance. On 2026-11-02 the user reported normal single-player play. This is overall play feedback rather than a record that every test branch was individually exercised. See the [1.0.0 release notes](docs/RELEASE_1.0.0.md), [focused acceptance checklist](docs/TESTING_0.3.2.md), [development notes](docs/DEVELOPMENT.md) and [offline tool instructions](tools/README.md).
 
 Changes to audited upstream source disable automatic operation while preserving recovery access. Crops using vanilla farming methods are supported; compost and multiplayer are not. This is not a claim of compatibility with every modded fruit tree.
 
@@ -84,7 +86,7 @@ Before disabling, switch off care, reclaim device and pending recovery stocks, a
 
 The repository retains mod files, tools, tests, docs, generated icon prompts and publishing metadata. Local validation outputs, release ZIPs, compiler caches and private settings are excluded from Git. Six transparent 128×128 icons were generated with image_gen from the user's reference concept and the other SuQing mods' style; [prompts](art/icon-prompts.json) are retained.
 
-Thanks to Water Pipes author Slayer. This independent add-on does not bundle game, Water Pipes or Batch Farming source code or artwork. No open-source license has been assigned. Git can preserve candidate source versions; a Workshop cover and upload are separate later publishing work.
+Thanks to Water Pipes author Slayer. This independent add-on does not bundle game, Water Pipes or Batch Farming source code or artwork. No open-source license has been assigned. The existing Git history is retained for the 1.0.0 release preparation; Workshop upload and public visibility are separate publishing actions.
 
 ## Related projects and setup snapshot
 

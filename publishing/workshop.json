@@ -1,6 +1,6 @@
 {
-  "title": "蘇清的喷洒器施肥扩展",
-  "version": "0.3.2-rc.1",
+  "title": "蘇清的灌溉养护模组 | SuQing's Irrigation Care [B42.21 SP]",
+  "version": "1.0.0",
   "workshop_id": null,
   "mod_id": "SuQingSprinklerFertilizer",
   "required_workshop_ids": [
@@ -11,6 +11,9 @@
     "Farming",
     "QoL"
   ],
-  "status": "local_candidate_awaiting_gameplay_acceptance",
-  "preview": null
+  "status": "release_prepared",
+  "preview": "publishing/preview.png",
+  "visibility": "private",
+  "github": "https://github.com/suching8848/suqing-sprinkler-fertilizer",
+  "appid": 108600
 }

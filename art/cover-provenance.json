@@ -1,0 +1,12 @@
+{
+  "asset": "art/cover-source.png",
+  "tool": "built-in image_gen",
+  "generation_date": "2026-11-02",
+  "intent": "User-selected greenhouse cover; remove both mod and game version numbers; retain SINGLE PLAYER.",
+  "prompt": "Use case: precise-object-edit. Edit this exact selected greenhouse cover with MINIMAL changes restricted to the small version text areas near the bottom. Remove BOTH version numbers: delete the 'v1.0.0' mod-version text and delete 'B42.21' with its following separator dot. Fill the little former v1.0.0 plaque with a small symmetric gold/lavender botanical ornament instead of any text, keeping its frame elegant. Recenter 'SINGLE PLAYER' in the bottommost line. There must be NO version number, no game/build version, no numerical text anywhere in the finished cover. Preserve the large Chinese title exactly as '蘇清的' and '灌溉养护'. Preserve everything else as closely as possible, especially the woman's exact face, two horns, white hair, purple apron, hands, held wooden medicine basket, pump on the lower left, blue pipes and sprinklers, greenhouse sunset, colors, pixel-art rendering, ornate purple/gold frame and square aspect ratio. Do not redesign the composition or add objects. Opaque background.",
+  "delivery": {
+    "publishing/preview.png": "512x512 PNG export of completed artwork",
+    "mods/SuQingSprinklerFertilizer/42/poster.png": "byte-identical copy of publishing/preview.png"
+  },
+  "notes": "Original completed generation preserved. Delivery exports change dimensions only; no further image generation or content edits."
+}

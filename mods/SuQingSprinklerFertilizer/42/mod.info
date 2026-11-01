@@ -1,9 +1,10 @@
-name=蘇清的喷洒器施肥扩展
+name=蘇清的灌溉养护模组
+poster=poster.png
 id=SuQingSprinklerFertilizer
 require=Waterpipes
 loadModAfter=Waterpipes
 versionMin=42.21
 versionMax=42.21
-modversion=0.3.2-rc.1
+modversion=1.0.0
 author=蘇清
-description=Single-player irrigation care: pump network supply (1000 each), sprinkler reservoirs (200 each), management window, reusable 50/200-dose packs, immediate empty spray returns. Five sandbox costs default 1, range 0.01-2. B42.21; 0.3.2 per-project pump controls, category icon and 1/4L recipes; gameplay acceptance pending.
+description=Single-player irrigation care for B42.21. Water Pipes required. Pump-fed fertilizer and four treatments; 200 doses per sprinkler and 1000 per pump; independent care and pump-input controls; management window; reusable 50/200-dose packs. Five sandbox costs default 1, range 0.01-2. Version 1.0.0 retains 0.3.2 gameplay and schema 3. Single-player play reported normal; offline checks do not replace gameplay acceptance.

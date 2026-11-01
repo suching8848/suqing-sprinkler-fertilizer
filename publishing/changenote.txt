@@ -1,1 +1,7 @@
-0.3.2-rc.1: Per-sprinkler care and pump-input controls from the pump, independent per resource. Care OFF blocks both sources. Added Neat Crafting category icon. Local candidate; gameplay acceptance pending.
+v1.0.0 — 首个正式版 / First stable release
+
+整合水泵集中供肥供药、五项自动养护、喷洒器分项项目与泵供控制、持续管理窗口、独立余料回收、50/200份可重复装填药剂包和独立沙盒消耗倍率。用户反馈当前单人游玩正常。
+
+沿用0.3.2玩法、固定Mod ID及schema 3，不新增存档机制。发行默认消耗倍率仍为1（范围0.01～2），个人存档设置不写入发行包。适用B42.21单人，必需Water Pipes。
+
+Includes pump-fed care, five independent care types, per-sprinkler project and pump-input controls, a persistent management window, recovery and reusable 50/200-dose packs. Gameplay and save schema remain unchanged from 0.3.2. Defaults remain 1, range 0.01–2. B42.21 single-player; Water Pipes required.

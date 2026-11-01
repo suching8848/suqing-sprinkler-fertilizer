@@ -11,6 +11,20 @@ python tools/validate_package.py
 python tools/build_release.py
 ```
 
+准备本地创意工坊上传目录（不部署、不上传）：
+
+```sh
+python tools/build_workshop.py
+```
+
+读取`publishing/workshop.json`、`description.bbcode.txt`、`changenote.txt`、`preview.png`及`mods/`，输出到`releases/Workshop/SuQingSprinklerFertilizer-<version>/`。目录包含`Contents/mods`、512×512且小于1 MB（1,000,000字节）的`preview.png`、`workshop.txt`、`changenote.txt`和逐文件SHA-256清单`manifest.json`。输出目录已存在时直接报错，不删除或覆盖；出现错误后不把残留目录当作可用发布包。
+
+This prepares a local Workshop folder only, with no network calls or installation. Existing output is refused. The source mod and preview are checked byte for byte against the output, and the manifest records their hashes. No saves, enabled lists or personal settings are included.
+
+`workshop.txt`按游戏模板使用`version=1`、逐行`description=`、分号分隔标签及`visibility=private`；首次`workshop_id`为null时不写`id=`。元数据记录的Water Pipes（`3546314080`）不会自动变成Steam上的实际必需品；首次上传后必须在工坊页面核对并添加该必需品。本工具不会创建条目、分配ID、添加必需品或公开发布。
+
+The required Water Pipes item (`3546314080`) is recorded in metadata only. After the first upload, verify/add it as an actual required item on the Workshop page; this script does not create an item, obtain an ID, add requirements or publish it.
+
 `generate_care_content.py` 会重新生成本仓库的物品、配方、翻译与配方数据，不属于只读检查，修改前先阅读并复核输出；打包不会部署。
 
 `generate_care_content.py` rewrites repository item, recipe, translation and recipe-data files. Review it before regeneration; it is not a read-only check. Packaging never deploys the archive.

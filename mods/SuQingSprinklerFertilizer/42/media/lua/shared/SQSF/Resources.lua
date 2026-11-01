@@ -1,7 +1,7 @@
 -- All reservoirs use integer 1/10000 dose units. Only recovery rounds down.
 SQSF = SQSF or {}
 local F = SQSF
-F.VERSION, F.KEY = "0.3.2-rc.1", "SuQingSprinklerFertilizer"
+F.VERSION, F.KEY = "1.0.0", "SuQingSprinklerFertilizer"
 F.SCALE, F.CAPACITY, F.PUMP_CAPACITY, F.RADIUS = 10000, 200, 1000, 5
 F.ORDER = {"Fertilizer", "Mildew", "Flies", "Aphids", "Slugs"}
 F.RESOURCES = {

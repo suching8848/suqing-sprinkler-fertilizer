@@ -1,5 +1,6 @@
-蘇清的喷洒器施肥扩展 0.3.2-rc.1
-Build 42.21单人。0.2用户反馈全部通过；0.3离线验证通过，游戏验收待完成。
+蘇清的灌溉养护模组 1.0.0
+Build 42.21单人。用户反馈当前单人游玩正常；1.0.0整理既有0.3.2功能，不增加玩法或存档机制。
+游戏反馈是整体体验记录，不代表所有作物、迁移、保存重进或菜单分支均已逐项验收。
 前置Water Pipes：Workshop3546314080，Mod ID Waterpipes。
 本模组固定ID SuQingSprinklerFertilizer，同一ID升级，不可双来源安装。
 
@@ -24,9 +25,9 @@ Build 42.21单人。0.2用户反馈全部通过；0.3离线验证通过，游戏
 停用前回收并关闭所有设备/待回收记录，处理自定义药剂包及空包。
 上游接口改变时停用自动功能，保留回收。独立于Batch Farming，不支持堆肥和多人。
 
-感谢Water Pipes作者Slayer。本包不含游戏/上游源码和美术。六个图标用内置image_gen生成，尚未公开发布。
+感谢Water Pipes作者Slayer。本包不含游戏/上游源码和美术。六个图标与封面用内置image_gen制作；封面无游戏和模组版本数字。本包为正式版发布准备，工坊上传另行执行。
 
 新版页面：设备管理／管网设备／有材料时显示的拆除余料回收。管网页可查看设备库存与连接情况，靠近后才能进入目标管理。连接计数只显示一次，旧喷壶零余额时隐藏按钮。
 药剂包重量1.3/4.6，旧随身包在进档或打开管理页时按新定义刷新，余量不变。
 
-0.3.2: Control connected sprinklers at the pump using independent care and pump-input switches per resource. Care OFF stops both local and pump supplies. Includes Neat Crafting category icon.
+1.0.0 retains 0.3.2 gameplay: Control connected sprinklers at the pump using independent care and pump-input switches per resource. Care OFF stops both local and pump supplies. Includes Neat Crafting category icon.
