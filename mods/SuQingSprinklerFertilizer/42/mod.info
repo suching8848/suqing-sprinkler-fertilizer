@@ -1,5 +1,6 @@
 name=蘇清的灌溉养护模组
 poster=poster.png
+icon=icon.png
 id=SuQingSprinklerFertilizer
 require=Waterpipes
 loadModAfter=Waterpipes

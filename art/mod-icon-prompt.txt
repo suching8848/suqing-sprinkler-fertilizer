@@ -1,0 +1,17 @@
+Use case: stylized-concept.
+Asset type: one square transparent-background game mod avatar icon, readable when exported at 256 by 256 pixels.
+
+Input references:
+Image 1 is the original character-identity reference only.
+Image 2 is the existing SuQing mod avatar: match its refined pixel-anime chibi rendering, face proportions, recognizable identity and portrait readability.
+Image 3 is the current Irrigation Care cover: use its white blouse and pale lavender gardening apron/suspender outfit and its irrigation color cues only. Do not copy the cover background, typography or frame.
+
+Primary request: Create exactly ONE new icon portrait of this same fictional SuQing character. She has long white hair with soft lavender shadows, violet-purple eyes, TWO white ridged dragon horns, pointed elf ears, and the same white flower/knot ornament with dangling detail on the side of her hair. Keep her recognizable as the character in all three references. She wears the cover's modest white high-collared blouse and pale lavender gardening apron/suspenders. Friendly, calm, slightly smiling expression.
+
+Composition: centered chibi head, shoulders and upper chest, a large clear face, both horns completely visible, and all hair tips safely inside the canvas. Maintain at least 8 percent genuinely transparent padding around the entire silhouette, including horn tips and hair. At one lower side of the chest place one small, simple, clearly readable emblem combining a cyan-blue water droplet and a green two-leaf sprout, expressing pump-fed irrigation and fertilizing. Keep the emblem clear of the face and hair and subordinate to the portrait.
+
+Style: crisp hand-crafted pixel-art anime portrait, clean coherent pixel clusters, luminous purple eyes, white/lavender hair, restrained warm highlights, readable sprite silhouette and tidy edges. Match the existing avatar's polished chibi pixel style rather than a smooth vector, painting or photorealistic image. Square canvas, preferably 1024 by 1024.
+
+Background: genuinely transparent PNG alpha across all empty space; no checkerboard pattern, no opaque white/black fill, no scenery, no backdrop, no cast background shadow or glow rectangle. Preserve soft edge alpha where needed.
+
+Constraints: no text, no letters, no numbers, no game-version label, no mod-version label, no logo text, no border or frame, no watermark, no extra characters. Only this single modestly dressed, nonsexual shoulder-and-chest portrait and its small water-and-sprout emblem.

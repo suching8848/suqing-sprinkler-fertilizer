@@ -1,0 +1,34 @@
+{
+  "asset": "art/mod-icon-source.png",
+  "tool": "built-in image_gen",
+  "generation_date": "2026-11-02",
+  "intent": "Fill the missing standalone mod-list avatar for SuQing Irrigation Care, matching the existing character and cover.",
+  "prompt_file": "art/mod-icon-prompt.txt",
+  "character_reference": "User-provided white-haired dragon character concept",
+  "source_sha256": "6d4c8d621424291f07ee3065b3266d6579d0b7c5df8ee2ab5bc1424e170f0232",
+  "source_dimensions": [
+    1254,
+    1254
+  ],
+  "source_mode": "RGBA",
+  "delivery": {
+    "path": "mods/SuQingSprinklerFertilizer/42/icon.png",
+    "width": 256,
+    "height": 256,
+    "mode": "RGBA",
+    "sha256": "cae9a6a2590b86999366e0ca6f0e0e274084d6a20f501af5346b33a5d539244a",
+    "bytes": 93887,
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "alpha_bbox": [
+      24,
+      23,
+      232,
+      233
+    ],
+    "note": "Deterministic dimension reduction and transparent padding; no additional content edits. Mod metadata declares icon=icon.png."
+  },
+  "notes": "The avatar is distinct from the existing item/category icons. Existing cover, gameplay, version and dependencies remain unchanged."
+}
