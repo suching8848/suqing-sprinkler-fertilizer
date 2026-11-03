@@ -4,7 +4,7 @@
 
 ![Irrigation Care cover](publishing/preview.png)
 
-为 Water Pipes 增加水泵集中供肥供药、喷洒器自动养护、独立管理窗口和可重复装填的药剂包。当前 **1.0.0**，支持 **Build 42.21 单人**。用户已反馈当前单人游玩正常，本地正式版准备已完成；创意工坊条目尚未上传。
+为 Water Pipes 增加水泵集中供肥供药、喷洒器自动养护、独立管理窗口和可重复装填的药剂包。当前 **1.0.0**，支持 **Build 42.21 单人**。用户已反馈当前单人游玩正常。根据 2026-11-02 15:43（北京时间）的发布回执，[创意工坊条目 3831881094](https://steamcommunity.com/sharedfiles/filedetails/?id=3831881094) 已上传并公开核验通过。2026-11-03 17:39（北京时间）的平台状态读回仍为公开；发布及状态核验不代替游戏内验收。
 
 ## 前置与补丁关系
 
@@ -90,10 +90,10 @@
 
 仓库包含 mods、tools、tests、docs、art、publishing；validation 和 releases 忽略提交。六个透明 128×128 图标由内置 image_gen 根据用户概念图与其他蘇清模组风格生成，[完整提示词](art/icon-prompts.json)。
 
-感谢 Water Pipes 作者 Slayer。本项目为独立扩展，不含游戏、Water Pipes、Batch Farming 源码或美术。尚未指定开源许可证；本仓库沿用既有 Git 历史准备1.0.0正式版，创意工坊上传与公开可见性另行执行。
+感谢 Water Pipes 作者 Slayer。本项目为独立扩展，不含游戏、Water Pipes、Batch Farming 源码或美术。尚未指定开源许可证；本仓库保留既有 Git 历史，1.0.0 的工坊发布状态见上述回执记录。
 
 ## 相关项目与配置快照
 
-[全部 8 个模组与补丁仓库](docs/project-index.md) · [当前单人档 205 项启用顺序](docs/current-single-player-modlist.md) · [作者 Steam 合集](https://steamcommunity.com/sharedfiles/filedetails/?id=3823981387)
+[10 个源码仓库与 42 个 Mod ID](docs/project-index.md) · [2026-11-02 01:10 的单人档启用快照](docs/current-single-player-modlist.md) · [作者 Steam 合集](https://steamcommunity.com/sharedfiles/filedetails/?id=3823981387)
 
-源码索引涵盖 37 个 Mod ID。Steam 合集不附带独立本地补丁；按各项目的前置和条件兼容说明选择子项。启用快照不代表每个项目或新增版本均已通过游戏内验收。
+源码索引涵盖 42 个 Mod ID。Steam 合集不附带独立本地补丁；按各项目的前置和条件兼容说明选择子项。启用快照不代表每个项目或新增版本均已通过游戏内验收。

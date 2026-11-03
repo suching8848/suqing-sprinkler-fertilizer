@@ -4,7 +4,7 @@
 
 ![Irrigation Care cover](publishing/preview.png)
 
-A single-player Water Pipes add-on with pump-fed fertilizer and disease treatments, sprinkler reservoirs, a management window and refillable care packs. Current version: **1.0.0**, for **Project Zomboid Build 42.21 single-player**. The user reported normal play with the current version; local stable-release preparation is complete. The Workshop item has not been uploaded yet.
+A single-player Water Pipes add-on with pump-fed fertilizer and disease treatments, sprinkler reservoirs, a management window and refillable care packs. Current version: **1.0.0**, for **Project Zomboid Build 42.21 single-player**. The user reported normal play with the current version. The publication receipt completed on 2026-11-02 at 15:43 (Beijing time, UTC+8) records [Workshop item 3831881094](https://steamcommunity.com/sharedfiles/filedetails/?id=3831881094) as uploaded and verified public. The platform status query on 2026-11-03 at 17:39 (Beijing time, UTC+8) still returned public. Publication and status queries do not establish in-game acceptance.
 
 ## Dependencies and companion patches
 
@@ -86,10 +86,10 @@ Before disabling, switch off care, reclaim device and pending recovery stocks, a
 
 The repository retains mod files, tools, tests, docs, generated icon prompts and publishing metadata. Local validation outputs, release ZIPs, compiler caches and private settings are excluded from Git. Six transparent 128×128 icons were generated with image_gen from the user's reference concept and the other SuQing mods' style; [prompts](art/icon-prompts.json) are retained.
 
-Thanks to Water Pipes author Slayer. This independent add-on does not bundle game, Water Pipes or Batch Farming source code or artwork. No open-source license has been assigned. The existing Git history is retained for the 1.0.0 release preparation; Workshop upload and public visibility are separate publishing actions.
+Thanks to Water Pipes author Slayer. This independent add-on does not bundle game, Water Pipes or Batch Farming source code or artwork. No open-source license has been assigned. The existing Git history is retained. The recorded Workshop publication status for 1.0.0 is described above.
 
 ## Related projects and setup snapshot
 
-[All eight mod and patch repositories](docs/project-index.md) · [Current 205-ID enabled order](docs/current-single-player-modlist.md) · [Author’s Steam collection](https://steamcommunity.com/sharedfiles/filedetails/?id=3823981387)
+[Ten source repositories and 42 Mod IDs](docs/project-index.md) · [Single-player enabled snapshot from 2026-11-02 01:10 UTC+08:00](docs/current-single-player-modlist.md) · [Author’s Steam collection](https://steamcommunity.com/sharedfiles/filedetails/?id=3823981387)
 
-The source index covers 37 Mod IDs. The Steam collection does not include separately installed local patches; select entries using each project’s requirements and conditional integration notes. Enabled state does not establish in-game acceptance of every project or new version.
+The source index covers 42 Mod IDs. The Steam collection does not include separately installed local patches; select entries using each project’s requirements and conditional integration notes. Enabled state does not establish in-game acceptance of every project or new version.

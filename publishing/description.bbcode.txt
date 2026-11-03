@@ -16,7 +16,7 @@
 [h2]可重复装填的药剂包[/h2]
 独立制作分类：蘇清的水泵灌溉器升级，现有设备可直接管理。
 50份包：1木板、原版药材1倍、对应液体1L；200份包：2木板、原版药材4倍、对应液体4L。
-霉菌使用奶1/4L，无额外水；其他使用水1/4L。虫害支持香烟、散烟草、嚼烟；新增盐制蛞蝓药。
+50份使用1L液体，200份使用4L液体：霉菌使用奶，无额外水；其他使用水。虫害支持香烟、散烟草、嚼烟；新增盐制蛞蝓药。
 包用空后留下同尺寸空包，使用空包和材料重新装填，不再消耗木板，无需额外喷壶、锅桶或杂志。共24个制作/装填配方。
 
 [h2]前置与兼容[/h2]
@@ -29,7 +29,7 @@
 
 [h2]English summary[/h2]
 Single-player Water Pipes add-on for B42.21. Five independent crop-care resources, 200 doses per sprinkler and 1000 per pump. Control connected sprinklers from the pump with separate care and pump-input switches for each resource. Use pump stock first, then enabled local stock; actual watering and crop demand are required.
-Refillable 50/200-dose packs use 1/4L of water (milk for mildew), leave matching reusable empty packs and need no extra spray bottle. Five sandbox costs default to 1 with range 0.01–2. Keep the same Mod ID when upgrading; reclaim custom stocks before removing. Batch Farming and Neat Crafting are optional integrations, not requirements.
+Refillable 50/200-dose packs use 1 L or 4 L of water respectively (milk instead of water for mildew treatment), leave matching reusable empty packs and need no extra spray bottle. Five sandbox costs default to 1 with range 0.01–2. Keep the same Mod ID when upgrading; reclaim custom stocks before removing. Batch Farming and Neat Crafting are optional integrations, not requirements.
 
 [url=https://github.com/suching8848/suqing-sprinkler-fertilizer]源码与完整中英说明 / Source and bilingual documentation[/url]
 感谢Water Pipes作者Slayer。本项目为独立扩展，不打包游戏或上游模组的源码、美术。图标与封面使用image_gen依据用户角色概念和既有蘇清模组风格制作。
